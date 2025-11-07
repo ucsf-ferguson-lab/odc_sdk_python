@@ -1,12 +1,12 @@
-from logic.stats_logic import (
+from odc_sdk.logic.stats_logic import (
     get_stats,
     user_stats,
     dataset_stats,
     lab_stats,
     download_stats,
 )
-from models.endpoints.public_endpoints import init_stat_endpoints
-from configs.env_var import init_api_key, import_api_key
+from odc_sdk.models.endpoints.public_endpoints import init_stat_endpoints
+from odc_sdk.configs.env_var import init_api_key, import_api_key
 
 # Note: type annotations not included to keep code simple
 if __name__ == "__main__":
