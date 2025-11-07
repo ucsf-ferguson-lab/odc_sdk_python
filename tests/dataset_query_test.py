@@ -3,7 +3,10 @@ import os
 import sys
 import pandas as pd
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
+# local path
+sys.path.insert(
+    0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../odc_sdk"))
+)
 from configs.env_var import import_api_key
 from logic.dataset_query import get_dataset_info, get_data_dict
 from logic.shared_logic import unmarshal_json, convert_to_df

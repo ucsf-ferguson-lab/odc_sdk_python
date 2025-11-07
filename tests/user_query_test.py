@@ -2,7 +2,10 @@ from typing import Any
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
+# local path
+sys.path.insert(
+    0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../odc_sdk"))
+)
 from configs.env_var import import_api_key
 from logic.user_logic import get_user_info
 

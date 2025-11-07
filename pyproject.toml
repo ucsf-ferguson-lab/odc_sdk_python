@@ -1,0 +1,20 @@
+[project]
+name = "odc_sdk"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.13"
+license = { file = "LICENSE" }
+
+[project.urls]
+Homepage = "https://github.com/ucsf-ferguson-lab/odc_python_sdk"
+Issues = "https://github.com/ucsf-ferguson-lab/odc_python_sdk/issues"
+
+[build-system]
+requires = [
+    "flit_core >= 3.12.0, <4",
+    "python-dotenv == 1.2.1",
+    "requests == 2.32.5",
+    "pandas == 2.3.3",
+]
+build-backend = "flit_core.buildapi"
