@@ -10,7 +10,9 @@ class StatEndpoints:
     downloads_stats: str
 
 
-def init_stat_endpoints(base_url: str) -> StatEndpoints:
+def init_stat_endpoints(
+    base_url: str = "https://services.scicrunch.io/odc",
+) -> StatEndpoints:
     return StatEndpoints(
         datasets_stats=f"{base_url}/stats/datasets",
         users_stats=f"{base_url}/stats/users",

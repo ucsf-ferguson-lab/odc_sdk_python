@@ -13,7 +13,7 @@ class AuthReqEndpoints:
     upload_data_dictionary: str
 
 
-# todo: subject to change, api key req in query param + json header
+# TODO: subject to change, api key req in query param + json header
 def init_auth_req_endpoints(base_url: str, dataset_id: int) -> AuthReqEndpoints:
     return AuthReqEndpoints(
         user_info=f"{base_url}/user/info",
