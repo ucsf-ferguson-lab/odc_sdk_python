@@ -3,6 +3,7 @@ import pandas as pd
 from odc_sdk.models.public_endpoints import init_stat_endpoints
 from odc_sdk.logic.stats_logic import get_stats
 
+# example code for advanced users
 if __name__ == "__main__":
     stat_endpoints = init_stat_endpoints()
 

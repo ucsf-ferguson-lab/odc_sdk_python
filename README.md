@@ -2,6 +2,8 @@
 
 Software Development Kit (SDK) to work with ODC platform. https://services.scicrunch.io/odc/docs
 
+Note: package name is `odc_sdk`
+
 ## Install
 
 Production
@@ -20,4 +22,10 @@ Dev
 
 ```shell
 python3 -m pip install git+https://github.com/ucsf-ferguson-lab/odc_python_sdk.git@dev
+```
+
+### Uninstall
+
+```shell
+python3 -m pip uninstall odc_sdk
 ```
