@@ -1,4 +1,7 @@
-.PHONY: fmt clean
+.PHONY: install_local fmt clean
+
+install_local:
+	python3 -m pip install . --break-system-packages
 
 fmt:
 	ruff format
