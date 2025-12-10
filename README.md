@@ -2,6 +2,8 @@
 
 Software Development Kit (SDK) to work with ODC platform. https://services.scicrunch.io/odc/docs
 
+For optimal support, I recommend using latest Python versions (3.13.x or 3.14.x at the time of writing). Prior Python versions should work but not guaranteed. See `requirements.txt` file for all required dependencies.
+
 Note: package name is `odc_sdk`
 
 ## Install
